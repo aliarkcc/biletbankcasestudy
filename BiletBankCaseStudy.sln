@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiletBankCaseStudy.Application", "BiletBankCaseStudy.Application\BiletBankCaseStudy.Application.csproj", "{A350F298-A24C-46D3-9F83-D96D8AD60469}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiletBankCaseStudy.Core", "BiletBankCaseStudy.Core\BiletBankCaseStudy.Core.csproj", "{741953D9-DA17-4016-9F3E-94149E21B83F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiletBankCaseStudy.Domain", "BiletBankCaseStudy.Domain\BiletBankCaseStudy.Domain.csproj", "{9BE73437-3C42-4AC3-825F-F5D1064364A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiletBankCaseStudy.Persistence", "BiletBankCaseStudy.Persistence\BiletBankCaseStudy.Persistence.csproj", "{9622BD95-8819-4E8A-92B7-A21B80AB3DFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiletBankCaseStudy.WebAPI", "BiletBankCaseStudy.WebAPI\BiletBankCaseStudy.WebAPI.csproj", "{35B69397-C9C0-4699-A095-C749A6076C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiletBankCaseStudy.WebApp", "BiletBankCaseStudy.WebApp\BiletBankCaseStudy.WebApp.csproj", "{70A59019-517B-4ABE-B2B6-6C2AF9946311}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A350F298-A24C-46D3-9F83-D96D8AD60469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A350F298-A24C-46D3-9F83-D96D8AD60469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A350F298-A24C-46D3-9F83-D96D8AD60469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A350F298-A24C-46D3-9F83-D96D8AD60469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741953D9-DA17-4016-9F3E-94149E21B83F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741953D9-DA17-4016-9F3E-94149E21B83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741953D9-DA17-4016-9F3E-94149E21B83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741953D9-DA17-4016-9F3E-94149E21B83F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE73437-3C42-4AC3-825F-F5D1064364A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE73437-3C42-4AC3-825F-F5D1064364A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE73437-3C42-4AC3-825F-F5D1064364A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE73437-3C42-4AC3-825F-F5D1064364A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9622BD95-8819-4E8A-92B7-A21B80AB3DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9622BD95-8819-4E8A-92B7-A21B80AB3DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9622BD95-8819-4E8A-92B7-A21B80AB3DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9622BD95-8819-4E8A-92B7-A21B80AB3DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B69397-C9C0-4699-A095-C749A6076C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B69397-C9C0-4699-A095-C749A6076C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B69397-C9C0-4699-A095-C749A6076C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B69397-C9C0-4699-A095-C749A6076C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A59019-517B-4ABE-B2B6-6C2AF9946311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A59019-517B-4ABE-B2B6-6C2AF9946311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A59019-517B-4ABE-B2B6-6C2AF9946311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A59019-517B-4ABE-B2B6-6C2AF9946311}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6911973-042B-46F0-A7C0-5FC571EBF255}
+	EndGlobalSection
+EndGlobal

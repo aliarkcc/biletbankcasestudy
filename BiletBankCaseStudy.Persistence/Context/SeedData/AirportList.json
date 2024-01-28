@@ -1,0 +1,434 @@
+[
+  {
+    "name": "Gisborne",
+    "city": "Gisborne",
+    "country": "New Zealand",
+    "iata_code": "GIS",
+    "_geoloc": {
+      "lat": -38.663333,
+      "lng": 177.978333
+    },
+    "links_count": 4,
+    "objectID": "2012"
+  },
+  {
+    "name": "Taupo",
+    "city": "Taupo",
+    "country": "New Zealand",
+    "iata_code": "TUO",
+    "_geoloc": {
+      "lat": -38.739723,
+      "lng": 176.084444
+    },
+    "links_count": 4,
+    "objectID": "2007"
+  },
+  {
+    "name": "Ouvea",
+    "city": "Ouvea",
+    "country": "New Caledonia",
+    "iata_code": "UVE",
+    "_geoloc": {
+      "lat": -20.640556,
+      "lng": 166.572778
+    },
+    "links_count": 4,
+    "objectID": "2004"
+  },
+  {
+    "name": "Port Hardy",
+    "city": "Port Hardy",
+    "country": "Canada",
+    "iata_code": "YZT",
+    "_geoloc": {
+      "lat": 50.680556,
+      "lng": -127.366667
+    },
+    "links_count": 4,
+    "objectID": "200"
+  },
+  {
+    "name": "Koumac",
+    "city": "Koumac",
+    "country": "New Caledonia",
+    "iata_code": "KOC",
+    "_geoloc": {
+      "lat": -20.546314,
+      "lng": 164.255625
+    },
+    "links_count": 4,
+    "objectID": "1999"
+  },
+  {
+    "name": "Mataiva",
+    "city": "Mataiva",
+    "country": "French Polynesia",
+    "iata_code": "MVT",
+    "_geoloc": {
+      "lat": -14.868055,
+      "lng": -148.717225
+    },
+    "links_count": 4,
+    "objectID": "1985"
+  },
+  {
+    "name": "Fakarava",
+    "city": "Fakarava",
+    "country": "French Polynesia",
+    "iata_code": "FAV",
+    "_geoloc": {
+      "lat": -16.05415,
+      "lng": -145.656994
+    },
+    "links_count": 4,
+    "objectID": "1977"
+  },
+  {
+    "name": "Mayaguana",
+    "city": "Mayaguana",
+    "country": "Bahamas",
+    "iata_code": "MYG",
+    "_geoloc": {
+      "lat": 22.379528,
+      "lng": -73.0135
+    },
+    "links_count": 4,
+    "objectID": "1952"
+  },
+  {
+    "name": "Stella Maris",
+    "city": "Stella Maris",
+    "country": "Bahamas",
+    "iata_code": "SML",
+    "_geoloc": {
+      "lat": 23.581444,
+      "lng": -75.270475
+    },
+    "links_count": 4,
+    "objectID": "1951"
+  },
+  {
+    "name": "Deadmans Cay",
+    "city": "Dead Man's Cay",
+    "country": "Bahamas",
+    "iata_code": "LGI",
+    "_geoloc": {
+      "lat": 23.179014,
+      "lng": -75.093597
+    },
+    "links_count": 4,
+    "objectID": "1950"
+  },
+  {
+    "name": "Matthew Town",
+    "city": "Matthew Town",
+    "country": "Bahamas",
+    "iata_code": "IGA",
+    "_geoloc": {
+      "lat": 20.975,
+      "lng": -73.666862
+    },
+    "links_count": 4,
+    "objectID": "1949"
+  },
+  {
+    "name": "Rock Sound",
+    "city": "Rock Sound",
+    "country": "Bahamas",
+    "iata_code": "RSD",
+    "_geoloc": {
+      "lat": 24.8917,
+      "lng": -76.177739
+    },
+    "links_count": 4,
+    "objectID": "1946"
+  },
+  {
+    "name": "South Bimini",
+    "city": "Alice Town",
+    "country": "Bahamas",
+    "iata_code": "BIM",
+    "_geoloc": {
+      "lat": 25.699881,
+      "lng": -79.264656
+    },
+    "links_count": 4,
+    "objectID": "1937"
+  },
+  {
+    "name": "Treasure Cay",
+    "city": "Treasure Cay",
+    "country": "Bahamas",
+    "iata_code": "TCB",
+    "_geoloc": {
+      "lat": 26.745336,
+      "lng": -77.391269
+    },
+    "links_count": 4,
+    "objectID": "1934"
+  },
+  {
+    "name": "Spring Point",
+    "city": "Spring Point",
+    "country": "Bahamas",
+    "iata_code": "AXP",
+    "_geoloc": {
+      "lat": 22.441828,
+      "lng": -73.970858
+    },
+    "links_count": 4,
+    "objectID": "1932"
+  },
+  {
+    "name": "Enrique Malek Intl",
+    "city": "David",
+    "country": "Panama",
+    "iata_code": "DAV",
+    "_geoloc": {
+      "lat": 8.391003,
+      "lng": -82.434992
+    },
+    "links_count": 4,
+    "objectID": "1867"
+  },
+  {
+    "name": "Tapachula Intl",
+    "city": "Tapachula",
+    "country": "Mexico",
+    "iata_code": "TAP",
+    "_geoloc": {
+      "lat": 14.794339,
+      "lng": -92.370025
+    },
+    "links_count": 4,
+    "objectID": "1851"
+  },
+  {
+    "name": "Licenciado Y Gen Ignacio Lopez Rayon",
+    "city": "Uruapan",
+    "country": "Mexico",
+    "iata_code": "UPN",
+    "_geoloc": {
+      "lat": 19.396692,
+      "lng": -102.039056
+    },
+    "links_count": 4,
+    "objectID": "1835"
+  },
+  {
+    "name": "Piedras Negras Intl",
+    "city": "Piedras Negras",
+    "country": "Mexico",
+    "iata_code": "PDS",
+    "_geoloc": {
+      "lat": 28.627394,
+      "lng": -100.535211
+    },
+    "links_count": 4,
+    "objectID": "1834"
+  },
+  {
+    "name": "Minatitlan",
+    "city": "Minatitlan",
+    "country": "Mexico",
+    "iata_code": "MTT",
+    "_geoloc": {
+      "lat": 18.103419,
+      "lng": -94.580681
+    },
+    "links_count": 4,
+    "objectID": "1822"
+  },
+  {
+    "name": "General Servando Canales Intl",
+    "city": "Matamoros",
+    "country": "Mexico",
+    "iata_code": "MAM",
+    "_geoloc": {
+      "lat": 25.769894,
+      "lng": -97.525311
+    },
+    "links_count": 4,
+    "objectID": "1818"
+  },
+  {
+    "name": "Lazaro Cardenas",
+    "city": "Lazard Cardenas",
+    "country": "Mexico",
+    "iata_code": "LZC",
+    "_geoloc": {
+      "lat": 18.001731,
+      "lng": -102.220525
+    },
+    "links_count": 4,
+    "objectID": "1813"
+  },
+  {
+    "name": "Plan De Guadalupe Intl",
+    "city": "Saltillo",
+    "country": "Mexico",
+    "iata_code": "SLW",
+    "_geoloc": {
+      "lat": 25.549497,
+      "lng": -100.928669
+    },
+    "links_count": 4,
+    "objectID": "1810"
+  },
+  {
+    "name": "General Pedro Jose Mendez Intl",
+    "city": "Ciudad Victoria",
+    "country": "Mexico",
+    "iata_code": "CVM",
+    "_geoloc": {
+      "lat": 23.703336,
+      "lng": -98.956486
+    },
+    "links_count": 4,
+    "objectID": "1798"
+  },
+  {
+    "name": "Ingeniero Alberto Acuna Ongay Intl",
+    "city": "Campeche",
+    "country": "Mexico",
+    "iata_code": "CPE",
+    "_geoloc": {
+      "lat": 19.816794,
+      "lng": -90.500314
+    },
+    "links_count": 4,
+    "objectID": "1795"
+  },
+  {
+    "name": "North Bay",
+    "city": "North Bay",
+    "country": "Canada",
+    "iata_code": "YYB",
+    "_geoloc": {
+      "lat": 46.363611,
+      "lng": -79.422778
+    },
+    "links_count": 4,
+    "objectID": "177"
+  },
+  {
+    "name": "South Caicos",
+    "city": "South Caicos",
+    "country": "Turks and Caicos Islands",
+    "iata_code": "XSC",
+    "_geoloc": {
+      "lat": 21.515739,
+      "lng": -71.528528
+    },
+    "links_count": 4,
+    "objectID": "1755"
+  },
+  {
+    "name": "Abbotsford",
+    "city": "Abbotsford",
+    "country": "Canada",
+    "iata_code": "YXX",
+    "_geoloc": {
+      "lat": 49.025278,
+      "lng": -122.360556
+    },
+    "links_count": 4,
+    "objectID": "175"
+  },
+  {
+    "name": "Cardak",
+    "city": "Denizli",
+    "country": "Turkey",
+    "iata_code": "DNZ",
+    "_geoloc": {
+      "lat": 37.785567,
+      "lng": 29.701297
+    },
+    "links_count": 4,
+    "objectID": "1699"
+  },
+  {
+    "name": "Merzifon",
+    "city": "Merzifon",
+    "country": "Turkey",
+    "iata_code": "MZH",
+    "_geoloc": {
+      "lat": 40.829375,
+      "lng": 35.521992
+    },
+    "links_count": 4,
+    "objectID": "1693"
+  },
+  {
+    "name": "St Gallen Altenrhein",
+    "city": "Altenrhein",
+    "country": "Switzerland",
+    "iata_code": "ACH",
+    "_geoloc": {
+      "lat": 47.485033,
+      "lng": 9.560775
+    },
+    "links_count": 4,
+    "objectID": "1679"
+  },
+  {
+    "name": "Lugano",
+    "city": "Lugano",
+    "country": "Switzerland",
+    "iata_code": "LUG",
+    "_geoloc": {
+      "lat": 46.004275,
+      "lng": 8.910578
+    },
+    "links_count": 4,
+    "objectID": "1675"
+  },
+  {
+    "name": "Satu Mare",
+    "city": "Satu Mare",
+    "country": "Romania",
+    "iata_code": "SUJ",
+    "_geoloc": {
+      "lat": 47.703275,
+      "lng": 22.8857
+    },
+    "links_count": 4,
+    "objectID": "1659"
+  },
+  {
+    "name": "Oradea",
+    "city": "Oradea",
+    "country": "Romania",
+    "iata_code": "OMR",
+    "_geoloc": {
+      "lat": 47.025278,
+      "lng": 21.9025
+    },
+    "links_count": 4,
+    "objectID": "1656"
+  },
+  {
+    "name": "Craiova",
+    "city": "Craiova",
+    "country": "Romania",
+    "iata_code": "CRA",
+    "_geoloc": {
+      "lat": 44.318139,
+      "lng": 23.888611
+    },
+    "links_count": 4,
+    "objectID": "1654"
+  },
+  {
+    "name": "Tautii Magheraus",
+    "city": "Baia Mare",
+    "country": "Romania",
+    "iata_code": "BAY",
+    "_geoloc": {
+      "lat": 47.658389,
+      "lng": 23.470022
+    },
+    "links_count": 4,
+    "objectID": "1649"
+  }
+]

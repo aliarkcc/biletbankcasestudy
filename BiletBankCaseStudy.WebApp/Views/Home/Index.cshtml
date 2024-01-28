@@ -1,0 +1,107 @@
+﻿@model GenericListModel<Airport>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <div class="airport-form">
+        <form class="search-fly-form" method="GET" style="display:flex;justify-content:space-between">
+            <div>
+                <div class="form-group">
+                    <label for="departureAirport">Departure Airport:</label>
+                    <select id="departureAirport" name="departureAirportCode" required>
+                        <option value="" selected>Choose..</option>
+                        @foreach (var item in Model.Items)
+                        {
+                            <option value="@item.IATA_CODE">@item.Name</option>
+                        }
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="departureDate">Departure Date:</label>
+                    <input type="date" id="departureDate" name="DepartureDate" required>
+                </div>
+            </div>
+
+            <div style="padding-left:30px;">
+                <div class="form-group">
+                    <label for="arrivalAirport">Arrival Airport:</label>
+                    <select id="arrivalAirport" name="arrivalAirportCode" required>
+                        <option value="" selected>Choose..</option>
+                        @foreach (var item in Model.Items)
+                        {
+                            <option value="@item.IATA_CODE">@item.Name</option>
+                        }
+                    </select>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="returnDate">Arrival Date:</label>
+                    <input type="date" id="returnDate" name="ArrivalDate" required>
+                </div>
+            </div>
+
+            <div class="form-group submit-form-btn">
+                <input type="submit" value="Search Flight">
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="flight-search-result">
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var today = new Date().toISOString().split('T')[0];
+
+        document.getElementById("departureDate").min = today;
+        document.getElementById("returnDate").min = today;
+
+        document.getElementById("departureDate").addEventListener("input", function () {
+            document.getElementById("returnDate").min = this.value;
+        });
+
+        var returnDateInput = document.getElementById("returnDate")
+        var departureDateInput = document.getElementById("departureDate")
+        departureDateInput.addEventListener("input", function () {
+            returnDateInput.min = this.value;
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('.search-fly-form').submit(function (e) {
+            e.preventDefault();
+
+            var formData = $('.search-fly-form').serialize();
+            console.log(formData);
+            $('.flight-search-result').html("Loading............")
+
+            fetch("/search-flights?"+formData, {
+                method: "GET",
+                headers: {
+                    "Content-Type": "application/json; charset=utf-8",
+                },
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.text();
+                })
+                .then(html => {
+                    $('.flight-search-result').html(html)
+                })
+                .catch(error => {
+                    console.error("Fetch Error:", error);
+                });
+        });
+
+    });
+</script>
