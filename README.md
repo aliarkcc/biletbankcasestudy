@@ -1,5 +1,7 @@
 # .NET CORE 7 Bilet Bank Case Study
 
+![Ekran görüntüsü 2024-01-28 221045](https://github.com/aliarkcc/biletbankcasestudy/assets/82668225/0029dedb-a1e5-4005-82b9-710d507d9bb4)
+
 🌐 Overview:
 The Bilet Bank Case Study project is a comprehensive solution that combines a .Net Core 7 Web API for the backend and a .Net Core 7 MVC application for the frontend. This system revolves around managing tickets and transactions efficiently.
 
@@ -30,3 +32,4 @@ You need to specify the database path for the application to work properly. Plea
 
 5. Usage:
    Once the setup is complete, you can start using the Bilet Bank Case Study application.
+
