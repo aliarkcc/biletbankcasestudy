@@ -9,7 +9,7 @@ The Bilet Bank Case Study project is a comprehensive solution that combines a .N
 
 ## 1. Clone the Repository:
 
-`git clone https://github.com/aliarkcc/BiletBankCaseStudy.git`
+`git clone https://github.com/aliarkcc/biletbankcasestudy.git`
 
 ### Create Database
 
