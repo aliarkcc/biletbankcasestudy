@@ -18,7 +18,7 @@ After downloading the project, execute the following SQL command to create the r
 
 ## 🔧 Configuration
 
-Uygulamanın düzgün çalışabilmesi için Veritabanı yolunu belirtmeniz gerekmektedir.Lütfen şu path'i takip edin ve ConnectionString'i değiştirin: `BiletBankCaseStudy.WebAPI.appsettings.json`:
+You need to specify the database path for the application to work properly. Please follow this path and enable ConnectionString: `BiletBankCaseStudy.WebAPI.appsettings.json`:
 
 ### Start a Project
 
